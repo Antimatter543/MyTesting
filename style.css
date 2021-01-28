@@ -10,7 +10,7 @@ p{
 h1{
     color: white;
 }
-/* unvisited link * Just examples
+/* unvisited link * Just examples */
 a:link {
     color: red;
   }
@@ -30,19 +30,30 @@ a:link {
     color: blue;
   }
 
-
+/* Top navigation Bar Class */
   .topnav {
     overflow: hidden;
     background-color: #333;
   }
   
   .topnav a {
-    float: left;
-    color: #f2f2f2;
+    float: right;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+  }
+  .topnav b { /* Testing how a b would work -- kinda pog, check the index for the example (Contact) */
+    float: right;
+    color: green;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
   }
   
   .topnav a:hover {
@@ -50,7 +61,7 @@ a:link {
     color: black; /* Color of text from nav bar */ 
   }
   
-  .topnav a.active {
+  .topnav a.active { /* The current thing you're on */
     background-color: #4CAF50;
-    color: white;
+    color: black;
   }
