@@ -7,10 +7,18 @@ body{
 p{
   color: white;
 }
+
+
 h1{
     color: white;
+    position: 35
 }
-/* unvisited link * Just examples
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* unvisited link * Just examples */
 a:link {
     color: red;
   }
@@ -30,19 +38,21 @@ a:link {
     color: blue;
   }
 
-
+/* Top navigation Bar Class */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-image: linear-gradient(#141414, black);
+    opacity: 1;
   }
   
   .topnav a {
-    float: left;
-    color: #f2f2f2;
+    float: right;
+    color: white;
+    font-family: sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   .topnav a:hover {
@@ -50,7 +60,21 @@ a:link {
     color: black; /* Color of text from nav bar */ 
   }
   
-  .topnav a.active {
+  /* .topnav a.active { # The current thing you're on. Moving this to .topnav home but here for learning
     background-color: #4CAF50;
-    color: white;
+    ;
+  } */
+  .topnav a.home {
+    text-decoration: underline;
+    float: left;
   }
+
+/* About Summary Class */
+.about {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about p {
+  text-align: center;
+}
